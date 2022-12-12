@@ -1,0 +1,13 @@
+- name: Notion Pages
+  # You may pin to the exact commit or the version.
+  # uses: bndynet/github-action-notion@ac7a88da9cfe06e4236177a3c199c80209b2831b
+  uses: bndynet/github-action-notion@v1
+  with:
+    # Notion access token
+    notion-token: "secret_cMKvHNVLsEbWOPl61bIo5VqCxrx9qg51THxHhcLsoCU"
+    # root page id
+    root-page-id: 
+    # output folder
+    output-dir: # optional, default is ./_posts/
+    # remove all files in output directory
+    cleanup-before: # optional
