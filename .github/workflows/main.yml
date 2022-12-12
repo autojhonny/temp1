@@ -4,7 +4,7 @@
   uses: bndynet/github-action-notion@v1
   with:
     # Notion access token
-    notion-token: "secret_cMKvHNVLsEbWOPl61bIo5VqCxrx9qg51THxHhcLsoCU"
+    notion-token: secret_cMKvHNVLsEbWOPl61bIo5VqCxrx9qg51THxHhcLsoCU
     # root page id
     root-page-id: 
     # output folder
